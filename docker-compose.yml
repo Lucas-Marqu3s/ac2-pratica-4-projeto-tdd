@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: tdd-projeto-app
-    image: tdd-projeto:latest
+    image: lucasmarqu3s/tdd-projeto:latest
     ports:
       - "8080:8080"
     environment:
